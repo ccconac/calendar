@@ -1,0 +1,86 @@
+.main {
+    margin-top: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+    width: 550px;
+    height: 872px;
+    background-color: gray;
+}
+
+.month {
+    margin-top: 30px;
+    margin-left: 210px; 
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.week {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
+
+.days1 {
+    margin-top: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
+
+.days2 {
+    margin-top: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
+
+.days3 {
+    margin-top: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
+
+.days4 {
+    margin-top: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
+
+.days5 {
+    margin-top: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+    width: 550px;
+    height: 50px;
+    background-color: whitesmoke;
+}  
