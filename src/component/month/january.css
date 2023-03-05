@@ -6,7 +6,6 @@
 
     width: 550px;
     height: 872px;
-    background-color: gray;
 }
 
 .month {
@@ -17,7 +16,7 @@
 
     width: 150px;
     height: 150px;
-    background-color: whitesmoke;
+    background-color: gray;
 }
 
 .week {
@@ -26,28 +25,34 @@
     margin-right: auto;
     position: relative;
 
-    letter-spacing: 50px;
-    font-size: 25px;
-    line-height: 45px;
-    text-align: center;
+    word-spacing: 50px;
 
     width: 500px;
     height: 50px;
-    background-color: whitesmoke;
 }  
 
-.days {
+.days1, .days2, .days3, .days4, .days5 {
     margin-top: 43px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 
-    letter-spacing: 50px;
+    width: 500px;
+    height: 50px;
+}  
+
+.week, .days1, .days2, .days3, .days4, .days5 {
     font-size: 25px;
     line-height: 45px;
     text-align: center;
+}
 
-    width: 500px;
-    height: 50px;
-    background-color: whitesmoke;
-}  
+
+.days1, .days2, .days3, .days4, .days5 {
+    word-spacing: 39px;
+}
+
+.days5 {
+    text-indent: 17px;
+    text-align: left;
+}
