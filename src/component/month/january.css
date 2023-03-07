@@ -56,3 +56,24 @@
     text-indent: 17px;
     text-align: left;
 }
+
+/*여기랑*/
+.SEBD {
+    margin-left: 7px;
+}
+
+/*여기 라우터 넣어야 한다*/
+.SHBD {
+    margin-left: 154px;
+}
+
+.SEBD, .SHBD {
+    margin-top: -45px;
+
+    width: 50px;
+    height: 50px;
+
+    /*원 png 삽입해야 하는데 우선 상자로 위치만 잡아 놓음*/
+    background-color: black;
+    opacity: 0.5;
+}
