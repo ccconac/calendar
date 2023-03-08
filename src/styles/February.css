@@ -31,7 +31,7 @@
     height: 50px;
 }  
 
-.days1, .days2, .days3, .days4, .days5 {
+.fdays1, .days2, .days3, .days4, .days5 {
     margin-top: 43px;
     margin-left: auto;
     margin-right: auto;
@@ -39,17 +39,20 @@
 
     width: 500px;
     height: 50px;
-}  
+} 
 
-.week, .days1, .days2, .days3, .days4, .days5 {
-    font-size: 25px;
-    line-height: 45px;
-    text-align: center;
+.fdays1, .days2, .days3, .days4, .days5 {
+    word-spacing: 39px;
 }
 
+.week, .fdays1, .days2, .days3, .days4, .days5 {
+    font-size: 25px;
+    line-height: 45px;
+}
 
-.days1, .days2, .days3, .days4, .days5 {
-    word-spacing: 39px;
+.fdays1 {
+    text-indent: 238px;
+    text-align: left;
 }
 
 .days5 {
@@ -57,15 +60,8 @@
     text-align: left;
 }
 
-.SEBD {
-    margin-left: 7px;
-}
-
-.SHBD {
-    margin-left: 154px;
-}
-
-.SEBD, .SHBD {
+.HSBD {
+    margin-left: 80px;
     margin-top: -45px;
 
     width: 50px;

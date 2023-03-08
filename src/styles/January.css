@@ -1,0 +1,75 @@
+.main {
+    margin-top: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    width: 550px;
+    height: 872px;
+}
+
+.month {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+
+.week {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    word-spacing: 50px;
+
+    width: 500px;
+    height: 50px;
+}  
+
+.days1, .days2, .days3, .days4, .days5 {
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    width: 500px;
+    height: 50px;
+} 
+
+.days1, .days2, .days3, .days4, .days5 {
+    word-spacing: 39px;
+}
+
+.week, .days1, .days2, .days3, .days4, .days5 {
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.days5 {
+    text-indent: 17px;
+    text-align: left;
+}
+
+.SEBD {
+    margin-left: 7px;
+}
+
+.SHBD {
+    margin-left: 154px;
+}
+
+.SEBD, .SHBD {
+    margin-top: -45px;
+
+    width: 50px;
+    height: 50px;
+
+    /*원 png 삽입해야 하는데 우선 상자로 위치만 잡아 놓음*/
+    background-color: black;
+    opacity: 0.5;
+}
