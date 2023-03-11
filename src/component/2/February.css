@@ -1,0 +1,29 @@
+.fdays1 {
+    margin-top: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    width: 500px;
+    height: 50px;
+
+    word-spacing: 39px;
+
+    font-size: 25px;
+    line-height: 45px;
+
+    text-indent: 238px;
+    text-align: left;
+}
+
+.HSBD {
+    margin-left: 80px;
+    margin-top: -45px;
+
+    width: 50px;
+    height: 50px;
+
+    /*원 png 삽입해야 하는데 우선 상자로 위치만 잡아 놓음*/
+    background-color: black;
+    opacity: 0.5;
+}

@@ -38,11 +38,12 @@
 }
 
 .App {
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
 
   width: 600px;
   height: 882px;
-  background-color: whitesmoke;
+  background-color: #b3c4fe;
 }

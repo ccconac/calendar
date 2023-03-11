@@ -1,19 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/January.css";
+import "./January.css";
 
 const january = () => {
     return (
         <div className = "main">
-            <div className = "month">1월(여긴 이미지 삽입할거)</div>
+            <div className = "month">
+                <img src = "/assets/january-month.png"/>
+            </div>
             <div className = "week">S M T W T F S</div>
             <div className = "days1">01 02 03 04 05 06 07
-                <Link to = "/0101">
+                <Link to = "/january/0101">
                     <div className = "SEBD"></div>
                 </Link>
             </div>
             <div className = "days2">08 09 10 11 12 13 14
-                <Link to = "/0110">
+                <Link to = "/january/0110">
                     <div className = "SHBD"></div>
                 </Link>
             </div>

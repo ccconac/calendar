@@ -1,0 +1,40 @@
+.homeYear {
+    margin-top: 32px;
+    margin-left: 45px;
+    margin-right: auto;
+    position: relative;
+
+    width: 255px;
+    height: 110px;
+    background-color: gray;
+}
+
+.jan, .feb, .mar, .apr, .may, .jun, .jul, .aug, .sep, .oct, .nov, .dec {
+    width: 160px;
+    height: 160px;
+    background-color: gray;
+}
+
+.feb, .mar, .may, .jun, .aug, .sep, .nov, .dec {
+    margin-top: -160px;
+}
+
+.apr, .jul, .oct {
+    margin-top: 15px;
+}
+
+.feb, .may, .aug, .nov {
+    margin-left: 220px;
+}
+
+.jan, .apr, .jul, .oct {
+    margin-left: 45px;
+}
+
+.mar, .jun, .sep, .dec {
+    margin-left: 395px;
+}
+
+.jan {
+    margin-top: 23px;
+}

@@ -1,0 +1,10 @@
+.birthMonth {
+    margin-top: 38px;
+    margin-left: 45px;
+    margin-right: auto;
+    position: relative;
+
+    width: 255px;
+    height: 170px;
+    background-color: gray;
+}
