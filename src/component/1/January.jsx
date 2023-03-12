@@ -2,12 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./January.css";
 
-const january = () => {
+const January = () => {
     return (
         <div className = "main">
-            <div className = "month">
-                <img src = "/assets/january-month.png"/>
-            </div>
+            <div className = "month">1월</div>
             <div className = "week">S M T W T F S</div>
             <div className = "days1">01 02 03 04 05 06 07
                 <Link to = "/january/0101">
@@ -23,8 +21,7 @@ const january = () => {
             <div className = "days4">22 23 24 25 26 27 28</div>
             <div className = "days5">29 30 31</div>
         </div>
-        
     )
 }
 
-export default january;
+export default January;

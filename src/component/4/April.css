@@ -1,0 +1,24 @@
+.adays1, .adays6 {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    width: 500px;
+    height: 50px;
+
+    word-spacing: 39px;
+
+    font-size: 25px;
+    line-height: 45px;
+
+    text-align: left;
+}
+
+.adays1 {
+    text-indent: 456px;
+}
+
+.adays6 {
+    text-indent: 17px;
+}

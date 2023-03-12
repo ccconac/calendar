@@ -17,8 +17,9 @@
 }
 
 .HSBD {
-    margin-left: 80px;
-    margin-top: -45px;
+    position: absolute;
+    top: 0;
+    left: 80px;
 
     width: 50px;
     height: 50px;

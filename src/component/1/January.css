@@ -8,18 +8,18 @@
 }
 
 .month {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 
     width: 170px;
     height: 170px;
-    transform: rotate(-20deg);
+    background-color: gray;
 }
 
 .week {
-    margin-top: 65px;
+    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -38,11 +38,9 @@
 
     width: 500px;
     height: 50px;
-} 
 
-.days1, .days2, .days3, .days4, .days5 {
     word-spacing: 39px;
-}
+} 
 
 .week, .days1, .days2, .days3, .days4, .days5 {
     font-size: 25px;
@@ -54,21 +52,24 @@
     text-align: left;
 }
 
-.SEBD {
-    margin-left: 7px;
-}
-
-.SHBD {
-    margin-left: 154px;
-}
-
 .SEBD, .SHBD {
-    margin-top: -45px;
+    position: absolute;
 
+    top: 0;
+    left: 0;
     width: 50px;
     height: 50px;
 
-    /*원 png 삽입해야 하는데 우선 상자로 위치만 잡아 놓음*/
-    background-color: black;
+    z-index: 1;
+
+    background-color: gray;
     opacity: 0.5;
-}
+  }
+  
+  .SEBD {
+    left: 6px;
+  }
+  
+  .SHBD {
+    left: 154px;
+  }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./February.css";
 
-const february = () => {
+const February = () => {
     return (
         <div className = "main">
             <div className = "month">2월(여긴 이미지 삽입할거)</div>
@@ -20,4 +20,4 @@ const february = () => {
     )
 }
 
-export default february;
+export default February;
